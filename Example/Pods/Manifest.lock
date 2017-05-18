@@ -1,0 +1,41 @@
+PODS:
+  - Expecta (1.0.5)
+  - Expecta+Snapshots (3.1.1):
+    - Expecta (~> 1.0)
+    - FBSnapshotTestCase/Core (~> 2.0)
+    - Specta (~> 1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Masonry (1.0.2)
+  - Specta (1.0.6)
+  - ZCWTool (0.0.4)
+  - ZCWView (0.0.1):
+    - Masonry (~> 1.0.1)
+    - ZCWTool
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+  - ZCWView (from `../`)
+
+EXTERNAL SOURCES:
+  ZCWView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  Expecta+Snapshots: dcff217eef506dabd6dfdc7864ea2da321fafbb8
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+  ZCWTool: 96c47d965a2176046d2f6fd7ffc319e6de438f08
+  ZCWView: 705eff71d540aa604ddacc712b06118cf5775206
+
+PODFILE CHECKSUM: df34962ea5ed46f3c5d498aba583c888b59d4949
+
+COCOAPODS: 1.2.1

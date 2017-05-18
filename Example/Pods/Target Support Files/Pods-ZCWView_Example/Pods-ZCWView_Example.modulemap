@@ -1,0 +1,6 @@
+framework module Pods_ZCWView_Example {
+  umbrella header "Pods-ZCWView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

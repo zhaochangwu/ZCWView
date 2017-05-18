@@ -1,0 +1,6 @@
+framework module ZCWView {
+  umbrella header "ZCWView-umbrella.h"
+
+  export *
+  module * { export * }
+}
