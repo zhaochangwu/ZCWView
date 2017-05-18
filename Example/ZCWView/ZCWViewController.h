@@ -8,6 +8,15 @@
 
 @import UIKit;
 
-@interface ZCWViewController : UIViewController
+@interface ZCWViewController : UITableViewController
+
+@end
+
+@interface ZCWModel : NSObject
+
+- (instancetype)initWithIndexPath:(NSIndexPath *)indexPath vc:(UIViewController *)vc;
+
+@property (nonatomic, copy) NSString *text;
+@property (nonatomic, copy) void(^selectedAction)();
 
 @end
