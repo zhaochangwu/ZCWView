@@ -11,9 +11,8 @@
 @implementation UIImage (LoadImages)
 
 + (UIImage *)bundleImageNamed:(NSString *)name {
-	NSString *frameworksPath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"Frameworks"];
-	NSString *bundlePath = [frameworksPath stringByAppendingPathComponent:@"ZCWView.framework"];
-	NSString *imagesBundlePath = [bundlePath stringByAppendingPathComponent:@"Images.bundle"];
+	NSString *path = @"Frameworks/ZCWView.framework/ZCWView.bundle/Images.bundle";
+	NSString *imagesBundlePath = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:path];
 	NSString *imagePath = [imagesBundlePath stringByAppendingPathComponent:name];
 	UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
 	return image;
