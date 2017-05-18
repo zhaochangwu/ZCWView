@@ -7,6 +7,7 @@
 //
 
 #import "ZCWToastView.h"
+#import "UIImage+LoadImages.h"
 
 #define kZCWToastViewTextFont			[UIFont systemFontOfSize:14.f]
 #define kZCWToastViewDefultDuration	2.f
@@ -47,7 +48,7 @@
 }
 
 + (instancetype)successToastWithMessage:(NSString *)msg duration:(NSTimeInterval)duration {
-	return [[self alloc] initWithMessage:msg ? : @"请求成功" image:[UIImage imageNamed:@"success"] duration:duration];
+	return [[self alloc] initWithMessage:msg ? : @"请求成功" image:[UIImage bundleImageNamed:@"success"] duration:duration];
 }
 
 //failToast
@@ -61,7 +62,7 @@
 }
 
 + (instancetype)failToastWithMessage:(NSString *)msg duration:(NSTimeInterval)duration {
-	return [[self alloc] initWithMessage:msg ? : @"请求失败" image:[UIImage imageNamed:@"fail"] duration:duration];
+	return [[self alloc] initWithMessage:msg ? : @"请求失败" image:[UIImage bundleImageNamed:@"fail"] duration:duration];
 }
 
 //offlineToast
@@ -74,7 +75,7 @@
 }
 
 + (instancetype)offlineToastWithMessage:(NSString *)msg duration:(NSTimeInterval)duration {
-	return [[self alloc] initWithMessage:msg ? : @"网络连接失败" image:[UIImage imageNamed:@"offline"] duration:duration];
+	return [[self alloc] initWithMessage:msg ? : @"网络连接失败" image:[UIImage bundleImageNamed:@"offline"] duration:duration];
 }
 
 - (void)hide {

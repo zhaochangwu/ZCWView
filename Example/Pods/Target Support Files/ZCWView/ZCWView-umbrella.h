@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIImage+LoadImages.h"
 #import "ZCWLoadingView.h"
 #import "ZCWToastView.h"
 

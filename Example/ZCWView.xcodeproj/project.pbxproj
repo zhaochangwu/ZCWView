@@ -60,11 +60,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9740260CF6DABA684A9A8E0C /* ZCWView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZCWView.podspec; path = ../ZCWView.podspec; sourceTree = "<group>"; };
+		9740260CF6DABA684A9A8E0C /* ZCWView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZCWView.podspec; path = ../ZCWView.podspec; sourceTree = "<group>"; };
 		A15E53DA04252F69C58BD466 /* Pods-ZCWView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCWView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZCWView_Tests/Pods-ZCWView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C72F550F8FAC1D16C315E173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C72F550F8FAC1D16C315E173 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CEF6492AEC8A5BDA17EEDC1C /* Pods-ZCWView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCWView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZCWView_Example/Pods-ZCWView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CFB26F5D6C5E0DC145D920C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CFB26F5D6C5E0DC145D920C3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F467D2E3ABF43D7DA07A3C39 /* Pods-ZCWView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCWView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZCWView_Tests/Pods-ZCWView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F60BA53941862E115EAA5F82 /* Pods_ZCWView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZCWView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
